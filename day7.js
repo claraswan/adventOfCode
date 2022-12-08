@@ -9,11 +9,10 @@ Example output: "I'M So hApPy iT'S MoNdAy"
 function altCaps(str){
     let newStr = '';
     for (let i = 0; i < str.length; i++) {
-        const character = str[i];
         if (i % 2 === 0) {
-            newStr += character.toUpperCase();
+            newStr += str[i].toUpperCase();
         } else {
-            newStr += character.toLowerCase();
+            newStr += str[i].toLowerCase();
         }
 
     }
